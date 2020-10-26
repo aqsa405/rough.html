@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+@keyframes multicolor {
+
+0%{
+    background-color: blue;
+    color: blueviolet;
+}
+25%{
+    background-color: rgb(187, 125, 66);
+    color: rgb(126, 172, 41);
+}
+50%{
+    background-color: rgb(97, 98, 21);
+    color: rgb(172, 41, 74);
+}
+75%{
+   background-color: indigo;
+   color: lightgreen;
+}
+100%{
+    background-color: darkgoldenrod;
+    color: crimson;
+}
+}
+@keyframes widthadjust {
+    from{ margin-left: 100%;} to {margin-left: -100%;}
+   }
+
+.HEY{
+    animation: 6s linear infinite alternate multicolor;
+}
+
+.HEY h1{
+      animation: 4s infinite alternate widthadjust;
+}
+</style>
+</head>
+<body>
+    <div class="HEY">
+        <h1>HELLO WORLD</h1>
+    </div>
+</body>
+</html>
